@@ -215,15 +215,15 @@ h2 {
       margin: 2em 0; }
 
 .job .left:before {
-  background: #859900; }
+  background: #6b9900; }
 .job em {
-  color: #859900;
+  color: #6b9900;
   font-style: normal; }
 
 .event .left:before {
-  background: #d33682; }
+  background: #9736d3; }
 .event em {
-  color: #d33682;
+  color: #9736d3;
   font-style: normal; }
 
 .fun .left:before {
@@ -231,6 +231,24 @@ h2 {
 .fun em {
   color: #268bd2;
   font-style: normal; }
+
+.movie .left:before {
+    background: #26d2bb; }
+.movie em {
+    color: #26d2bb;
+    font-style: normal; }
+
+.sun .left:before {
+      background: #d27626; }
+.sun em {
+      color: #d27626;
+      font-style: normal; }
+
+.moon .left:before {
+        background: #d22626; }
+.moon em {
+        color: #d22626;
+        font-style: normal; }
 
 .flash {
   color: #268bd2 !important; }
