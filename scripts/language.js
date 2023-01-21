@@ -3,15 +3,12 @@ var arrayLang = {
     "en": {
         "sub_title" : "Graduate Student at University of Milan, Italy.",
         "sub_sub_title" : "Consultant at"
-    },
+    }
+    /*,
     "it": {
         "sub_title" : "Laureato presso l'Universit\xE0 degli Studi di Milano.",
         "sub_sub_title" : "Consultant in"
-    },
-    "al": {
-        "sub_title" : "I diplomuar ne Universitetin e Milanos, Itali.",
-        "sub_sub_title" : "Consultant ne"
-    }
+    }*/
 };
 
 $(document).ready(function() {
