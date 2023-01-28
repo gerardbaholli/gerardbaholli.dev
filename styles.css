@@ -107,6 +107,7 @@ h2 {
     display: flex;
     justify-content: flex-start; }
     .changelog li .left {
+      margin-right: 1rem; /*left column*/
       font-weight: 300;
       min-width: 18em; }
     .changelog li .desc {
@@ -313,3 +314,8 @@ h2 {
   list-style: inside;
 }
 
+
+.project_link {
+  margin-left: 2.3rem;
+  margin-top: .1rem;
+}
