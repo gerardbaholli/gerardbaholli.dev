@@ -1,0 +1,35 @@
+.header-container {
+    display: flex;
+    align-items: flex-start; /* aligns items at the top */
+    justify-content: space-between;
+    border: 2px solid red;
+    padding-bottom: 160px;
+}
+
+.header-title {
+    display: flex;
+    flex-direction: column; /* stack title lines vertically */
+    gap: 4px; /* optional spacing between title lines */
+}
+
+.header-language {
+    display: flex;
+    /* border: 2px solid blue; */
+}
+
+.language-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 4px 8px;
+    color: #ababab;
+    transition: color 0.2s;
+
+    font-family: var(--font-base);
+    font-weight: 700;
+    font-size: var(--header-title-second-font-size-mobile);
+}
+
+.language-button.active {
+    color: #ffffff;
+}

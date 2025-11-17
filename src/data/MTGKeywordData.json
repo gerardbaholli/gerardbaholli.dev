@@ -1,0 +1,310 @@
+{
+  "keywords": [
+    {
+      "it-word": "rapidità",
+      "en-word": "haste",
+      "it-description": "Abilità che consente a una creatura di attaccare o utilizzare abilità che richiedono TAP nello stesso turno in cui è entrata in campo.",
+      "en-description": "Ability that allows a creature to attack or use abilities that require TAP the same turn it enters the battlefield."
+    },
+    {
+      "it-word": "volare",
+      "en-word": "flying",
+      "it-description": "Abilità che consente a una creatura di essere bloccata solo da altre creature con volare o raggiungere.",
+      "en-description": "Ability that allows a creature to be blocked only by creatures with flying or reach."
+    },
+    {
+      "it-word": "attacco improvviso",
+      "en-word": "first strike",
+      "it-description": "Abilità che permette a una creatura di infliggere danno da combattimento prima delle creature senza questa abilità.",
+      "en-description": "Ability that lets a creature deal combat damage before creatures without this ability."
+    },
+    {
+      "it-word": "doppio attacco",
+      "en-word": "double strike",
+      "it-description": "Abilità che consente a una creatura di infliggere danno da combattimento sia prima che dopo che le creature senza questa abilità.",
+      "en-description": "Ability that allows a creature to deal combat damage both before and after creatures without this ability."
+    },
+    {
+      "it-word": "sopraffazione",
+      "en-word": "trample",
+      "it-description": "Abilità che permette a una creatura di infliggere danno rimanente agli avversari se la creatura attaccante ha più forza di quanto necessario per distruggere i blocchi.",
+      "en-description": "Ability that allows a creature to deal excess combat damage to the defending player or planeswalker if it deals more damage than is needed to destroy the blockers."
+    },
+    {
+      "it-word": "intimidire",
+      "en-word": "intimidate",
+      "it-description": "Abilità che rende una creatura bloccabile solo da altre creature che condividono un colore con essa.",
+      "en-description": "Ability that makes a creature blockable only by creatures that share a color with it."
+    },
+    {
+      "it-word": "protezione",
+      "en-word": "protection",
+      "it-description": "Abilità che rende una creatura immune da danni, effetti o altre interazioni da una determinata fonte.",
+      "en-description": "Ability that makes a creature immune to damage, effects, or other interactions from a specific source."
+    },
+    {
+      "it-word": "toccare letale",
+      "en-word": "deathtouch",
+      "it-description": "Abilità che consente a una creatura di distruggere qualsiasi altra creatura con cui infligge danno.",
+      "en-description": "Ability that allows a creature to destroy any other creature it deals damage to."
+    },
+    {
+      "it-word": "minaccia",
+      "en-word": "menace",
+      "it-description": "Abilità che rende una creatura bloccabile solo da due o più creature.",
+      "en-description": "Ability that makes a creature blockable only by two or more creatures."
+    },
+    {
+      "it-word": "distanza di attacco",
+      "en-word": "reach",
+      "it-description": "Abilità che consente a una creatura di bloccare anche le creature con volare.",
+      "en-description": "Ability that allows a creature to block creatures with flying."
+    },
+    {
+      "it-word": "difensore",
+      "en-word": "defender",
+      "it-description": "Abilità che impedisce a una creatura di attaccare.",
+      "en-description": "Ability that prevents a creature from attacking."
+    },
+    {
+      "it-word": "persistenza",
+      "en-word": "persist",
+      "it-description": "Abilità che permette a una creatura di tornare in gioco con un segnalino -1/-1 se viene distrutta.",
+      "en-description": "Ability that allows a creature to return to the battlefield with a -1/-1 counter if it was destroyed."
+    },
+    {
+      "it-word": "rivelare",
+      "en-word": "reveal",
+      "it-description": "Abilità che consente a una carta di essere mostrata agli altri giocatori senza essere messa in gioco.",
+      "en-description": "Ability that allows a card to be shown to other players without being put into play."
+    },
+    {
+      "it-word": "morfismo",
+      "en-word": "morph",
+      "it-description": "Abilità che permette di mettere una creatura sul campo facendola sembrare una carta con una nuova identità.",
+      "en-description": "Ability that allows you to play a creature face-down, and then turn it face-up for its full cost."
+    },
+    {
+      "it-word": "affinità",
+      "en-word": "affinity",
+      "it-description": "Abilità che riduce il costo di mana di una carta in base al numero di altri permanenti simili.",
+      "en-description": "Ability that reduces the cost of a spell based on the number of similar permanents on the battlefield."
+    },
+    {
+      "it-word": "evoluzione",
+      "en-word": "evolve",
+      "it-description": "Abilità che permette a una creatura di crescere in forza e costituzione quando una creatura con forza maggiore entra nel campo di battaglia.",
+      "en-description": "Ability that allows a creature to grow in power and toughness when a creature with greater power enters the battlefield."
+    },
+    {
+      "it-word": "affinità per l'artefatto",
+      "en-word": "affinity for artifacts",
+      "it-description": "Abilità che riduce il costo di mana di una carta artefatto.",
+      "en-description": "Ability that reduces the mana cost of an artifact spell."
+    },
+    {
+      "it-word": "rinascita",
+      "en-word": "revolt",
+      "it-description": "Abilità che si attiva quando una condizione specifica è soddisfatta, come la perdita di un permanente.",
+      "en-description": "Ability that triggers when a specific condition is met, such as losing a permanent."
+    },
+    {
+      "it-word": "scartare",
+      "en-word": "discard",
+      "it-description": "Abilità che richiede a un giocatore di mettere una carta dalla sua mano nel cimitero.",
+      "en-description": "Ability that forces a player to put a card from their hand into their graveyard."
+    },
+    {
+      "it-word": "prodigio",
+      "en-word": "prodigy",
+      "it-description": "Abilità che consente a una creatura di ottenere potenza e resistenza extra quando soddisfa una certa condizione.",
+      "en-description": "Ability that allows a creature to gain power and toughness when a certain condition is met."
+    },
+    {
+      "it-word": "ripetere",
+      "en-word": "recur",
+      "it-description": "Abilità che consente a una carta di tornare nel mazzo o nel cimitero, per essere rigiocata.",
+      "en-description": "Ability that allows a card to return to the deck or graveyard, to be played again."
+    },
+    {
+      "it-word": "disperazione",
+      "en-word": "desperation",
+      "it-description": "Abilità che attiva effetti speciali quando la vita di un giocatore scende sotto un certo livello.",
+      "en-description": "Ability that triggers special effects when a player's life falls below a certain level."
+    },
+    {
+      "it-word": "cura",
+      "en-word": "lifelink",
+      "it-description": "Abilità che permette a un giocatore di guadagnare punti vita ogni volta che una creatura con questa abilità infligge danno.",
+      "en-description": "Ability that allows a player to gain life whenever a creature with this ability deals damage."
+    },
+    {
+      "it-word": "innalzamento",
+      "en-word": "ascend",
+      "it-description": "Abilità che consente a un giocatore di guadagnare un bonus speciale quando soddisfa una condizione di dominio.",
+      "en-description": "Ability that allows a player to gain a special bonus when a condition of having ten permanents or more is met."
+    },
+    {
+      "it-word": "scoperta",
+      "en-word": "explore",
+      "it-description": "Abilità che consente a un giocatore di rivelare la parte superiore del mazzo e di scegliere se mettere una carta in mano o nel cimitero.",
+      "en-description": "Ability that lets a player reveal the top card of their library and choose whether to put it into their hand or graveyard."
+    },
+    {
+      "it-word": "mormorare",
+      "en-word": "whisper",
+      "it-description": "Abilità che consente di scambiare una carta dal mazzo con una già in gioco.",
+      "en-description": "Ability that allows you to swap a card from your library with one already on the battlefield."
+    },
+    {
+      "it-word": "sacrificio",
+      "en-word": "sacrifice",
+      "it-description": "Abilità che permette di distruggere una carta sotto il proprio controllo per ottenere effetti aggiuntivi.",
+      "en-description": "Ability that allows a player to destroy a permanent under their control to gain additional effects."
+    },
+    {
+      "it-word": "spoliazione",
+      "en-word": "loot",
+      "it-description": "Abilità che permette a un giocatore di scartare una carta e pescare una nuova carta.",
+      "en-description": "Ability that lets a player discard a card and draw a new one."
+    },
+    {
+      "it-word": "incolpevole",
+      "en-word": "unaware",
+      "it-description": "Abilità che permette a una creatura di essere immune agli effetti di altre carte a meno che non ci sia un'altra creatura con una simile abilità.",
+      "en-description": "Ability that allows a creature to be immune to the effects of other cards unless there's another creature with a similar ability."
+    },
+    {
+      "it-word": "esplosione",
+      "en-word": "explode",
+      "it-description": "Abilità che consente a una carta di infliggere danni a tutte le creature o ai giocatori.",
+      "en-description": "Ability that allows a card to deal damage to all creatures or players."
+    },
+    {
+      "it-word": "risorgere",
+      "en-word": "reawaken",
+      "it-description": "Abilità che consente a una carta nel cimitero di essere ripresa e rimessa in gioco.",
+      "en-description": "Ability that allows a card from the graveyard to be retrieved and put back onto the battlefield."
+    },
+    {
+      "it-word": "combattente",
+      "en-word": "fighter",
+      "it-description": "Abilità che consente a una creatura di attaccare e difendersi contemporaneamente.",
+      "en-description": "Ability that allows a creature to both attack and defend simultaneously."
+    },
+    {
+      "it-word": "incantare",
+      "en-word": "enchant",
+      "it-description": "Abilità che consente a una carta di applicare effetti a una creatura o a un altro permanente.",
+      "en-description": "Ability that allows a card to apply effects to a creature or another permanent."
+    },
+    {
+      "it-word": "improvvisa",
+      "en-word": "flash",
+      "it-description": "Abilità che consente a una carta di essere giocata in qualsiasi momento, anche durante il turno dell'avversario.",
+      "en-description": "Ability that allows a card to be played at any time, even during an opponent's turn."
+    },
+    {
+      "it-word": "sbocciare",
+      "en-word": "bloom",
+      "it-description": "Abilità che consente a una creatura di evolversi o potenziarsi in base a una condizione specifica.",
+      "en-description": "Ability that allows a creature to evolve or become stronger based on a specific condition."
+    },
+    {
+      "it-word": "rimbalzo",
+      "en-word": "bounce",
+      "it-description": "Abilità che consente di restituire un permanente al suo proprietario, generalmente alla sua mano.",
+      "en-description": "Ability that allows a permanent to be returned to its owner's hand."
+    },
+    {
+      "it-word": "ripristinare",
+      "en-word": "regenerate",
+      "it-description": "Abilità che consente a una creatura di rimanere in gioco anche dopo essere stata distrutta.",
+      "en-description": "Ability that allows a creature to remain in play even after being destroyed."
+    },
+    {
+      "it-word": "maledizione",
+      "en-word": "curse",
+      "it-description": "Abilità che applica un effetto negativo o malus a un avversario o a una creatura.",
+      "en-description": "Ability that applies a negative effect or penalty to an opponent or creature."
+    },
+    {
+      "it-word": "fuga",
+      "en-word": "flee",
+      "it-description": "Abilità che consente a una creatura di evitare un danno o un effetto negativo.",
+      "en-description": "Ability that allows a creature to avoid damage or a negative effect."
+    },
+    {
+      "it-word": "avvolgere",
+      "en-word": "wrap",
+      "it-description": "Abilità che consente a una creatura di legarsi o infliggere danni durante un attacco o una difesa.",
+      "en-description": "Ability that allows a creature to bind or deal damage during an attack or defense."
+    },
+    {
+      "it-word": "pescare",
+      "en-word": "draw",
+      "it-description": "Abilità che permette a un giocatore di pescare una carta dal mazzo.",
+      "en-description": "Ability that allows a player to draw a card from their library."
+    },
+    {
+      "it-word": "coprire",
+      "en-word": "cover",
+      "it-description": "Abilità che consente a una carta di proteggere un'altra carta da effetti dannosi o distruttivi.",
+      "en-description": "Ability that allows a card to protect another card from harmful or destructive effects."
+    },
+    {
+      "it-word": "raccogliere",
+      "en-word": "gather",
+      "it-description": "Abilità che consente a un giocatore di acquisire risorse o effetti aggiuntivi durante il gioco.",
+      "en-description": "Ability that allows a player to gather resources or additional effects during the game."
+    },
+    {
+      "it-word": "dominare",
+      "en-word": "dominate",
+      "it-description": "Abilità che consente a una creatura di controllare una parte del mazzo o una parte del campo di battaglia.",
+      "en-description": "Ability that allows a creature to control part of the deck or battlefield."
+    },
+    {
+      "it-word": "saturazione",
+      "en-word": "saturate",
+      "it-description": "Abilità che consente di applicare effetti che rafforzano o potenziano una carta o un oggetto.",
+      "en-description": "Ability that allows applying effects that strengthen or power up a card or object."
+    },
+    {
+      "it-word": "fusione",
+      "en-word": "fusion",
+      "it-description": "Abilità che consente di combinare due o più carte per ottenere una carta più potente.",
+      "en-description": "Ability that allows combining two or more cards to get a more powerful one."
+    },
+    {
+      "it-word": "intimidire",
+      "en-word": "intimidate",
+      "it-description": "Abilità che consente a una creatura di essere bloccata solo da creature che condividono un colore con essa.",
+      "en-description": "Ability that allows a creature to be blocked only by creatures that share a color with it."
+    },
+    {
+      "it-word": "rinnovamento",
+      "en-word": "renewal",
+      "it-description": "Abilità che consente di restituire una carta dal cimitero al mazzo o al campo di battaglia.",
+      "en-description": "Ability that allows returning a card from the graveyard to the library or battlefield."
+    },
+    {
+      "it-word": "copiare",
+      "en-word": "copy",
+      "it-description": "Abilità che consente di creare una copia di una carta o di un effetto.",
+      "en-description": "Ability that allows creating a copy of a card or effect."
+    },
+    {
+      "it-word": "attacco letale",
+      "en-word": "lifeloss",
+      "it-description": "Abilità che consente a un giocatore di infliggere danni che riducono la vita dell'avversario in modo permanente.",
+      "en-description": "Ability that allows a player to deal damage that permanently reduces the opponent's life."
+    },
+    {
+      "it-word": "veleno",
+      "en-word": "poison",
+      "it-description": "Abilità che infligge segnalini veleno a un giocatore o una creatura. Un giocatore che ha 10 o più segnalini veleno perde la partita.",
+      "en-description": "Ability that deals poison counters to a player or creature. A player who has 10 or more poison counters loses the game."
+    }
+  ]
+}

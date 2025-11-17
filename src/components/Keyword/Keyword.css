@@ -1,0 +1,35 @@
+.keyword-card {
+    background-color: #2f2f2f;
+    display: flex;
+    flex-direction: column; /* Dispone gli elementi in verticale */
+    align-items: center;
+    justify-content: flex-start; /* Allinea i contenuti all'inizio */
+    width: 100%;
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 20px; /* Aggiungi padding per un po' di spazio interno */
+    border-radius: 15px; /* Aggiungi angoli arrotondati per un aspetto più morbido */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Ombra per un effetto di profondità */
+}
+
+.keyword-card-title {
+    /* background-color: blue; */
+    color: white; /* Aggiungi un colore per il testo */
+    font-size: 18px; /* Dimensione del testo per il titolo */
+    padding: 10px;
+    width: 100%; /* Fa sì che il titolo occupi tutta la larghezza */
+    text-align: left; /* Centra il testo */
+    border-radius: 4px; /* Angoli arrotondati per il titolo */
+    margin-bottom: 10px; /* Distanza tra il titolo e la descrizione */
+    font-weight: bold;
+}
+
+.keyword-card-description {
+    /* background-color: red; */
+    color: white; /* Aggiungi colore per il testo */
+    font-size: 16px;
+    padding: 10px;
+    width: 100%; /* Fa sì che la descrizione occupi tutta la larghezza */
+    text-align: left; /* Centra il testo */
+    border-radius: 4px; /* Angoli arrotondati per la descrizione */
+}

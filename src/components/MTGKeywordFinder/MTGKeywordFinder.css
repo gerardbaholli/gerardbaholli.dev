@@ -1,0 +1,45 @@
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 50%;
+    margin: 30px auto 25px auto;
+    /* position: relative; */
+}
+
+/* Stile del campo input */
+.input-container input {
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: none;
+    transition: all 0.3s ease;
+    background-color: #2f2f2f;
+    color: #ffffff;
+}
+
+/* Cambia bordo e colore al focus */
+.input-container input:focus {
+    outline: none;
+    border: none;
+}
+
+/* Placeholder stilizzato */
+.input-container input::placeholder {
+    color: #b4b4b4;
+    font-style: italic;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+}
+
+.logo-container img {
+    height: 100px;
+    width: auto;
+}
