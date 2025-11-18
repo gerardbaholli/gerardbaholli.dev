@@ -14,7 +14,6 @@ function Keyword({ keyword, highlightMatch }) {
     );
 }
 
-// Aggiungi la validazione delle props con PropTypes
 Keyword.propTypes = {
     keyword: PropTypes.shape({
         'it-word': PropTypes.string.isRequired,

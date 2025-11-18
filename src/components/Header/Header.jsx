@@ -13,8 +13,8 @@ export default function Header() {
     return (
         <div className="header-container">
             <div className="header-title">
-                <Link color={Text.paragraph1} className="header-title-first">Gerard Baholli,</Link>
-                <Link color={Text.paragraph2} className="header-title-second">Software Developer</Link>
+                <Link color={Text.paragraph1}>Gerard Baholli,</Link>
+                <Link color={Text.paragraph2}>Software Developer</Link>
             </div>
             <div className="header-language">
                 <button
