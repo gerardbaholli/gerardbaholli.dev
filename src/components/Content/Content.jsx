@@ -1,14 +1,12 @@
 import "./Content.css";
 import About from "../About/About.jsx";
-import Experience from "../Experience/Experience.jsx";
-import Skills from "../Skills/Skills.jsx";
+import Background from "../Background/Background.jsx";
 
 export default function Content() {
     return (
         <div className="content-container">
             <About />
-            <Experience />
-            <Skills />
+            <Background />
         </div>
     );
 }
