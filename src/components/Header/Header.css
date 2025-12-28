@@ -2,7 +2,7 @@
     display: flex;
     align-items: flex-start; /* aligns items at the top */
     justify-content: space-between;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding-bottom: 160px;
 }
 

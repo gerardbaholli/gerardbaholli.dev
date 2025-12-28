@@ -1,11 +1,12 @@
 .content-container {
-    border: 2px solid violet;
+    /* border: 2px solid violet; */
     display: grid;
     /* gap: 20px; */
-    grid-template-columns: 1fr; /* mobile: colonna unica */
+    grid-template-columns: 1fr; /* mobile: 1 column */
+    gap: 20px;
 }
 
-/* Desktop ≥ 800px → 2 colonne */
+/* Desktop ≥ 800px → 2 columns */
 @media (min-width: 800px) {
     .content-container {
         grid-template-columns: 1fr 1fr;

@@ -1,5 +1,5 @@
 import "./Header.css";
-import { Link } from "../../utils/TextStyles.jsx";
+import { H1, H2 } from "../../utils/TextStyles.jsx";
 import { Text } from "../../utils/ColorStyles.jsx";
 import { useState, useEffect } from "react";
 
@@ -13,8 +13,8 @@ export default function Header() {
     return (
         <div className="header-container">
             <div className="header-title">
-                <Link color={Text.paragraph1}>Gerard Baholli,</Link>
-                <Link color={Text.paragraph2}>Software Developer</Link>
+                <H1 color={Text.paragraph1}>Gerard Baholli</H1>
+                <H2 color={Text.paragraph2}>Software Developer</H2>
             </div>
             <div className="header-language">
                 <button
