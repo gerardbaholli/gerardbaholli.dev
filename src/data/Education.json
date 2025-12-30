@@ -1,0 +1,26 @@
+[
+  {
+    "id": "unimi",
+    "institute": {
+      "it": "Università degli Studi di Milano",
+      "en": "University of Milan"
+    },
+    "degree": {
+      "it": "Laurea Magistrale in Informatica",
+      "en": "Master's Degree in Computer Science"
+    },
+    "year": "2022" 
+  },
+  {
+    "id": "unive",
+    "institute": {
+      "it": "Università Ca' Foscari Venezia",
+      "en": "Ca' Foscari University of Venice"
+    },
+    "degree": {
+      "it": "Laurea Triennale in Informatica",
+      "en": "Bachelor's Degree in Computer Science"
+    },
+    "year": "2018"
+  }
+]

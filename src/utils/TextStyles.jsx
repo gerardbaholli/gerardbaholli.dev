@@ -32,7 +32,7 @@ export const H3 = styled.h3`
   line-height: 130%;
   letter-spacing: -1%;
   color: ${(props) => props.color || "inherit"};
-  margin-bottom: 24px;
+  margin-bottom: 30px;
 
   @media (min-width: 800px) { font-size: 16px; }
   @media (min-width: 1280px) { font-size: 18px; }
@@ -40,32 +40,6 @@ export const H3 = styled.h3`
 
 /* ---------- PARAGRAPHS ---------- */
 export const Paragraph = styled.p`
-  font-family: "Schibsted Grotesk", system-ui, -apple-system, sans-serif;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 150%;
-  letter-spacing: 0;
-  color: ${(props) => props.color || "inherit"};
-  margin-bottom: 12px;
-
-  @media (min-width: 800px) { font-size: 14px; }
-  @media (min-width: 1280px) { font-size: 16px; }
-`;
-
-/* ---------- TITLE ---------- */
-export const Title1 = styled.p`
-  font-family: "Schibsted Grotesk", system-ui, -apple-system, sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 150%;
-  letter-spacing: 0;
-  color: ${(props) => props.color || "inherit"};
-
-  @media (min-width: 800px) { font-size: 16px; }
-  @media (min-width: 1280px) { font-size: 18px; }
-`;
-
-export const Title2 = styled.p`
   font-family: "Schibsted Grotesk", system-ui, -apple-system, sans-serif;
   font-weight: 400;
   font-size: 12px;
@@ -104,6 +78,30 @@ export const Link = styled.span`
   line-height: 130%;
   letter-spacing: -2%;
   color: ${(props) => props.color || "inherit"};
+
+  @media (min-width: 800px) { font-size: 14px; }
+  @media (min-width: 1280px) { font-size: 16px; }
+`;
+
+export const FooterLink = styled.a`
+  font-family: "Schibsted Grotesk", system-ui, -apple-system, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  letter-spacing: -2%;
+  
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  text-decoration: none;
+  
+  color: ${(props) => props.color || "#ababab"};
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: #ffffff;
+  }
 
   @media (min-width: 800px) { font-size: 14px; }
   @media (min-width: 1280px) { font-size: 16px; }

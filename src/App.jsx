@@ -1,6 +1,7 @@
 import Header from "./components/Header/Header.jsx";
 import Content from "./components/Content/Content.jsx";
-import BackgroundShader from "./components/BackgroundShader/BackgroundShader.jsx"; 
+import Footer from "./components/Footer/Footer.jsx";
+// import BackgroundShader from "./components/BackgroundShader/BackgroundShader.jsx";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       /> */}
       <Header />
       <Content />
+      <Footer />
     </div>
   );
 }

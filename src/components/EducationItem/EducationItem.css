@@ -1,3 +1,20 @@
-education-item-container {
+.education-item-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 100%;
     padding-bottom: 12px;
+}
+
+.education-header-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+}
+
+.year-text {
+    white-space: nowrap; 
+    margin-left: 20px;
 }

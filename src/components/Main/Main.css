@@ -1,6 +1,5 @@
 .main-container {
-    /* border: 2px solid peru; */
-    border-top: 2px solid #373737;
+    border-top: 1px solid #373737ff;
     padding: 20px 0px;
     display: flex;
     flex-direction: column; 
