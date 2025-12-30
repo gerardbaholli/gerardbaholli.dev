@@ -32,7 +32,7 @@ export const H3 = styled.h3`
   line-height: 130%;
   letter-spacing: -1%;
   color: ${(props) => props.color || "inherit"};
-  margin-bottom: 12px;
+  margin-bottom: 24px;
 
   @media (min-width: 800px) { font-size: 16px; }
   @media (min-width: 1280px) { font-size: 18px; }
@@ -47,6 +47,31 @@ export const Paragraph = styled.p`
   letter-spacing: 0;
   color: ${(props) => props.color || "inherit"};
   margin-bottom: 12px;
+
+  @media (min-width: 800px) { font-size: 14px; }
+  @media (min-width: 1280px) { font-size: 16px; }
+`;
+
+/* ---------- TITLE ---------- */
+export const Title1 = styled.p`
+  font-family: "Schibsted Grotesk", system-ui, -apple-system, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0;
+  color: ${(props) => props.color || "inherit"};
+
+  @media (min-width: 800px) { font-size: 16px; }
+  @media (min-width: 1280px) { font-size: 18px; }
+`;
+
+export const Title2 = styled.p`
+  font-family: "Schibsted Grotesk", system-ui, -apple-system, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0;
+  color: ${(props) => props.color || "inherit"};
 
   @media (min-width: 800px) { font-size: 14px; }
   @media (min-width: 1280px) { font-size: 16px; }

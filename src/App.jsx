@@ -5,12 +5,12 @@ import BackgroundShader from "./components/BackgroundShader/BackgroundShader.jsx
 function App() {
   return (
     <div className="container">
-      <BackgroundShader 
+      {/* <BackgroundShader 
          shape="square" 
          pixelSize={1}
          inkColor="#999999"
          bgColor="#000000"
-      />
+      /> */}
       <Header />
       <Content />
     </div>

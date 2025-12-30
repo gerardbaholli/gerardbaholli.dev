@@ -1,11 +1,11 @@
 import "./Experience.css";
-import { Paragraph } from "../../utils/TextStyles.jsx";
+import { H3 } from "../../utils/TextStyles.jsx";
 import { Text } from "../../utils/ColorStyles.jsx";
 
 export default function Experience() {
     return (
         <div className="experience-container">
-            <Paragraph color={Text.paragraph1}>Experience</Paragraph>
+            <H3 color={Text.paragraph1}>Experience</H3>
         </div>
     );
 }

@@ -1,7 +1,9 @@
 .main-container {
     /* border: 2px solid peru; */
     border-top: 2px solid #373737;
-    padding-top: 20px;
-    gap: 10px;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column; 
+    gap: 36px;
 }
 
