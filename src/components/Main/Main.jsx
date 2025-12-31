@@ -7,8 +7,8 @@ import Education from "../Education/Education.jsx";
 export default function Main() {
     return (
         <div className="main-container">
-            <Education />
             <Experience />
+            <Education />
             <Projects />
             <Skills />
         </div>

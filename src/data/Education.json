@@ -9,6 +9,10 @@
       "it": "Laurea Magistrale in Informatica",
       "en": "Master's Degree in Computer Science"
     },
+    "location": {
+      "it": "Milano, Italia",
+      "en": "Milan, Italy"
+    },
     "year": "2022" 
   },
   {
@@ -20,6 +24,10 @@
     "degree": {
       "it": "Laurea Triennale in Informatica",
       "en": "Bachelor's Degree in Computer Science"
+    },
+    "location": {
+      "it": "Venezia, Italia",
+      "en": "Venice, Italy"
     },
     "year": "2018"
   }

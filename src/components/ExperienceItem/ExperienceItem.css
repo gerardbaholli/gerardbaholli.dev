@@ -1,4 +1,4 @@
-.education-item-container {
+.experience-item-container {
     display: flex;
     flex-direction: column;
     gap: 4px;
@@ -6,8 +6,20 @@
     padding-bottom: 12px;
 }
 
+.experience-header-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+}
 
-.education-header-row {
+.period-text {
+    white-space: nowrap;
+    margin-left: 20px;
+}
+
+.experience-subheader-row {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -16,19 +28,6 @@
 }
 
 .location-text {
-    white-space: nowrap;
-    margin-left: 20px;
-}
-
-.education-subheader-row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: baseline;
-    width: 100%;
-}
-
-.year-text {
     white-space: nowrap;
     margin-left: 20px;
 }

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "freelance-dev",
+    "company": {
+      "it": "Freelance / Progetti Personali",
+      "en": "Freelance / Personal Projects"
+    },
+    "role": {
+      "it": "Full-Stack Web Developer",
+      "en": "Full-Stack Web Developer"
+    },
+    "period": "2023 - Present",
+    "location": {
+      "it": "Trieste, Italia",
+      "en": "Trieste, Italy"
+    },
+    "description": {
+      "it": "Sviluppo di applicazioni web moderne utilizzando React, TypeScript e Three.js. Creazione di tool di visualizzazione 3D open-source e ottimizzazione delle performance frontend.",
+      "en": "Development of modern web applications using React, TypeScript, and Three.js. Created open-source 3D visualization tools and optimized frontend performance."
+    }
+  },
+  {
+    "id": "tech-company-example",
+    "company": {
+      "it": "Nome Azienda Precedente",
+      "en": "Previous Company Name"
+    },
+    "role": {
+      "it": "Junior Software Engineer",
+      "en": "Junior Software Engineer"
+    },
+    "period": "2020 - 2023",
+    "location": {
+      "it": "Milano, Italia",
+      "en": "Milan, Italy"
+    },
+    "description": {
+      "it": "Collaborazione in un team agile per lo sviluppo di soluzioni backend in Node.js. Gestione database e integrazione API.",
+      "en": "Collaborated in an agile team to develop backend solutions in Node.js. Database management and API integration."
+    }
+  }
+]

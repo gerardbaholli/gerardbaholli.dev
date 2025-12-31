@@ -14,7 +14,7 @@ export default function About() {
     return (
         <div className="about-container">
             <H3 color={Text.paragraph1}>{t("about_title")}</H3>
-            <Paragraph color={Text.paragraph1}>{t("about_description")}</Paragraph>
+            <Paragraph color={Text.paragraph2}>{t("about_description")}</Paragraph>
 
             <div className="link-list">
                 <LinkButton href={cvLink} target="_blank" rel="noopener noreferrer">

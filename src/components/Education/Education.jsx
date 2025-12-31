@@ -19,6 +19,7 @@ export default function Education() {
                         institute={item.institute[lang]}
                         degree={item.degree[lang]}
                         year={item.year}
+                        location={item.location[lang]}
                     />
                 ))}
             </div>
