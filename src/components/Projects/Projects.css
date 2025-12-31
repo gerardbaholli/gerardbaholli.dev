@@ -1,10 +1,18 @@
 .projects-container {
     padding-bottom: 20px;
     border-bottom: 1px solid #37373780;
+    width: 100%;
+    /* margin-bottom opzionale se vuoi spazio prima del footer */
+}
+
+/* Opzionale: aggiungi margine al titolo se non lo ha già globalmente */
+.projects-container h3 {
+    margin-bottom: 24px;
 }
 
 .projects-list {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 32px; /* Aumentato gap perché le card dei progetti sono più grandi */
+    width: 100%;
 }

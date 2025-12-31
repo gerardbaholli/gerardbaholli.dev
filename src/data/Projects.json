@@ -1,0 +1,44 @@
+[
+  {
+    "id": "astrovisio",
+    "title": "AstroVisio 3D Viewer",
+    "description": {
+      "it": "Un visualizzatore 3D web-based ad alte prestazioni per dati astronomici. Sviluppato con React Three Fiber, permette l'esplorazione interattiva di modelli complessi direttamente nel browser.",
+      "en": "A high-performance web-based 3D viewer for astronomical data. Built with React Three Fiber, it allows interactive exploration of complex models directly in the browser."
+    },
+    "techStack": ["React", "Three.js", "TypeScript", "Vite"],
+    "links": {
+      "github": "https://github.com/gerardbaholli/astrovisio_viewer3d",
+      "demo": "https://astrovisio-demo.vercel.app"
+    },
+    "image": "lorem-picsum.jpg"
+  },
+  {
+    "id": "portfolio-v2",
+    "title": "Personal Portfolio",
+    "description": {
+      "it": "Il mio sito personale minimalista progettato per mostrare progetti e competenze. Costruito con un'architettura a componenti scalabile e supporto multilingua.",
+      "en": "My minimalist personal website designed to showcase projects and skills. Built with a scalable component architecture and multi-language support."
+    },
+    "techStack": ["React", "Styled Components", "Framer Motion"],
+    "links": {
+      "github": "https://github.com/gerardbaholli/portfolio",
+      "demo": null
+    },
+    "image": "lorem-picsum.jpg"
+  },
+  {
+    "id": "open-source-lib",
+    "title": "React 3D Utils",
+    "description": {
+      "it": "Una raccolta di hook e utility personalizzate per semplificare lo sviluppo di scene 3D in React. Include controlli camera avanzati e helper per il caricamento di texture.",
+      "en": "A collection of custom hooks and utilities to simplify 3D scene development in React. Includes advanced camera controls and texture loading helpers."
+    },
+    "techStack": ["TypeScript", "NPM", "Rollup"],
+    "links": {
+      "github": "https://github.com/gerardbaholli/react-3d-utils",
+      "demo": "https://www.npmjs.com/package/react-3d-utils"
+    },
+    "image": "lorem-picsum.jpg"
+  }
+]
