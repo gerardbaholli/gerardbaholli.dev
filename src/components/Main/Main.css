@@ -1,8 +1,15 @@
 .main-container {
-    border-top: 1px solid #373737ff;
+    border-top: 1px solid #37373780;
     padding: 20px 0px;
     display: flex;
     flex-direction: column; 
     gap: 36px;
 }
+
+@media (min-width: 800px) {
+    .main-container {
+        border-top: 1px solid #373737ff;
+    }
+}
+
 
