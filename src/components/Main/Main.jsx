@@ -9,8 +9,8 @@ export default function Main() {
         <div className="main-container">
             <Education />
             <Experience />
-            <Skills />
             <Projects />
+            <Skills />
         </div>
     );
 }
