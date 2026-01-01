@@ -3,18 +3,19 @@ import PropTypes from 'prop-types';
 import { Paragraph, FooterLink } from "../../utils/TextStyles.jsx";
 import { Text } from "../../utils/ColorStyles.jsx";
 
-export default function ProjectItem({ title, description, techStack, links, image }) {
+export default function ProjectItem({ title, description, techStack, links }) {
     return (
         <div className="project-item-container">
-            {/* Opzionale: Immagine del progetto (se presente nel JSON) */}
-            {image && (
+
+            {/* {image && (
                 <div className="project-image-wrapper">
                     <img src={image} alt={title} className="project-image" />
                 </div>
-            )}
+            )} */}
 
             <div className="project-content">
-                {/* Header: Titolo */}
+
+                {/* Header: Title */}
                 <div className="project-header">
                     <Paragraph color={Text.paragraph1} className="project-title">
                         {title}
@@ -28,7 +29,7 @@ export default function ProjectItem({ title, description, techStack, links, imag
                     </Paragraph>
                 </div>
 
-                {/* Tech Stack (Badge) */}
+                {/* Tech Stack */}
                 <div className="tech-stack-row">
                     {techStack.map((tech, index) => (
                         <span key={index} className="tech-badge">

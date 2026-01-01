@@ -27,7 +27,7 @@ export const H2 = styled.h2`
 
 export const H3 = styled.h3`
   font-family: "Schibsted Grotesk", system-ui, -apple-system, sans-serif;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 14px;
   line-height: 130%;
   letter-spacing: -1%;

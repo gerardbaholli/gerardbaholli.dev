@@ -17,7 +17,7 @@ export default function Projects() {
                     <ProjectItem
                         key={project.id}
                         title={project.title}
-                        description={project.description[lang]} // Lingua dinamica
+                        description={project.description[lang]}
                         techStack={project.techStack}
                         links={project.links}
                         image={project.image}
