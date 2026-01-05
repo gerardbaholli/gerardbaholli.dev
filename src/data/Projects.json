@@ -1,44 +1,85 @@
 [
   {
     "id": "astrovisio",
-    "title": "AstroVisio 3D Viewer",
+    "title": "Astrovisio",
     "description": {
-      "it": "Un visualizzatore 3D web-based ad alte prestazioni per dati astronomici. Sviluppato con React Three Fiber, permette l'esplorazione interattiva di modelli complessi direttamente nel browser.",
-      "en": "A high-performance web-based 3D viewer for astronomical data. Built with React Three Fiber, it allows interactive exploration of complex models directly in the browser."
+      "it": "Un'applicazione VR basata su Unity per la visualizzazione immersiva di dataset astrofisici. Fornisce strumenti interattivi per esplorare dati scientifici utilizzando mappe di colore e tecniche avanzate di mappatura dei dati.",
+      "en": "A Unity-based VR application for immersive visualization of astrophysical datasets. It provides interactive tools to explore scientific data using colormaps and advanced data mapping techniques."
     },
-    "techStack": ["React", "Three.js", "TypeScript", "Vite"],
+    "techStack": [
+      "Unity Engine",
+      "C#",
+      "Unity UI Toolkit",
+      "HLSL",
+      "Git"
+    ],
     "links": {
-      "github": "https://github.com/gerardbaholli/astrovisio_viewer3d",
-      "demo": "https://astrovisio-demo.vercel.app"
+      "github": "https://github.com/Astrovisio/astrovisio-unity",
+      "demo": null,
+      "video": "https://vimeo.com/1147345257?fl=pl&fe=sh"
     },
-    "image": "lorem-picsum.jpg"
+    "image": "/projects/astrovisio.png"
   },
   {
-    "id": "portfolio-v2",
-    "title": "Personal Portfolio",
-    "description": {
-      "it": "Il mio sito personale minimalista progettato per mostrare progetti e competenze. Costruito con un'architettura a componenti scalabile e supporto multilingua.",
-      "en": "My minimalist personal website designed to showcase projects and skills. Built with a scalable component architecture and multi-language support."
-    },
-    "techStack": ["React", "Styled Components", "Framer Motion"],
-    "links": {
-      "github": "https://github.com/gerardbaholli/portfolio",
-      "demo": null
-    },
-    "image": "lorem-picsum.jpg"
-  },
-  {
-    "id": "open-source-lib",
-    "title": "React 3D Utils",
+    "id": "fec-viewer3d",
+    "title": "FEC Digital Collection",
     "description": {
       "it": "Una raccolta di hook e utility personalizzate per semplificare lo sviluppo di scene 3D in React. Include controlli camera avanzati e helper per il caricamento di texture.",
       "en": "A collection of custom hooks and utilities to simplify 3D scene development in React. Includes advanced camera controls and texture loading helpers."
     },
-    "techStack": ["TypeScript", "NPM", "Rollup"],
+    "techStack": [
+      "React",
+      "Three.js",
+      "Typescript",
+      "Webpack",
+      "Git"
+    ],
     "links": {
-      "github": "https://github.com/gerardbaholli/react-3d-utils",
-      "demo": "https://www.npmjs.com/package/react-3d-utils"
+      "github": null,
+      "demo": null,
+      "open": "https://www.fecdigitalcollection.org//"
     },
-    "image": "lorem-picsum.jpg"
+    "image": "/projects/fec.png"
+  },
+  {
+    "id": "gasperotti-viewer3d",
+    "title": "Gasperotti Configuratore",
+    "description": {
+      "it": "Una raccolta di hook e utility personalizzate per semplificare lo sviluppo di scene 3D in React. Include controlli camera avanzati e helper per il caricamento di texture.",
+      "en": "A collection of custom hooks and utilities to simplify 3D scene development in React. Includes advanced camera controls and texture loading helpers."
+    },
+    "techStack": [
+      "React",
+      "Three.js",
+      "Typescript",
+      "Webpack",
+      "Git"
+    ],
+    "links": {
+      "github": null,
+      "demo": null,
+      "open": "https://configuratore.gasperotti.com/"
+    },
+    "image": "/projects/gasperotti.png"
+  },
+  {
+    "id": "magickeywordwiki",
+    "title": "Magic Keyword Wiki",
+    "description": {
+      "it": "Una raccolta di hook e utility personalizzate per semplificare lo sviluppo di scene 3D in React. Include controlli camera avanzati e helper per il caricamento di texture.",
+      "en": "A collection of custom hooks and utilities to simplify 3D scene development in React. Includes advanced camera controls and texture loading helpers."
+    },
+    "techStack": [
+      "React",
+      "Typescript",
+      "Vite",
+      "Git"
+    ],
+    "links": {
+      "github": "https://github.com/gerardbaholli/MagicKeywordWiki",
+      "demo": null,
+      "open": "https://gerardbaholli.github.io/MagicKeywordWiki/"
+    },
+    "image": "/projects/astrovisio.png"
   }
 ]

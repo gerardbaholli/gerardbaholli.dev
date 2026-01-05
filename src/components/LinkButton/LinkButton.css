@@ -2,18 +2,21 @@
     border-top: 1px solid #37373780;
     display: flex;
     align-items: center;
-    
     gap: 3px;
     padding: 12px 6px;
-    
     text-decoration: none;
     color: white;
     background: transparent;
-    
     transition: background-color 0.2s ease;
 }
 
-.link-button-container:hover {
+@media (hover: hover) {
+    .link-button-container:hover {
+        background-color: rgba(255, 255, 255, 0.05);
+    }
+}
+
+.link-button-container:active {
     background-color: rgba(255, 255, 255, 0.05);
 }
 

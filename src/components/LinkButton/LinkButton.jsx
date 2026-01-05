@@ -2,7 +2,7 @@ import "./LinkButton.css";
 import PropTypes from 'prop-types';
 import { Link } from "../../utils/TextStyles.jsx";
 
-const ARROW_ICON = "/arrow_outward_16dp_FFFFFF_FILL0_wght400_GRAD0_opsz20.svg";
+const ARROW_ICON = "/icons/arrow_outward_16dp_FFFFFF_FILL0_wght400_GRAD0_opsz20.svg";
 
 export default function LinkButton({ 
     href = "#",

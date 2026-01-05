@@ -1,17 +1,18 @@
 import "./ProjectItem.css";
 import PropTypes from 'prop-types';
-import { Paragraph, FooterLink } from "../../utils/TextStyles.jsx";
+import { Paragraph } from "../../utils/TextStyles.jsx";
 import { Text } from "../../utils/ColorStyles.jsx";
+import LinkArrow from "../LinkArrow/LinkArrow.jsx";
 
-export default function ProjectItem({ title, description, techStack, links }) {
+export default function ProjectItem({ title, description, techStack, links, image }) {
     return (
         <div className="project-item-container">
 
-            {/* {image && (
+            {image && (
                 <div className="project-image-wrapper">
                     <img src={image} alt={title} className="project-image" />
                 </div>
-            )} */}
+            )}
 
             <div className="project-content">
 
@@ -41,14 +42,24 @@ export default function ProjectItem({ title, description, techStack, links }) {
                 {/* Links */}
                 <div className="project-links">
                     {links.github && (
-                        <FooterLink href={links.github} target="_blank" rel="noopener noreferrer">
+                        <LinkArrow href={links.github} target="_blank" rel="noopener noreferrer">
                             GitHub
-                        </FooterLink>
+                        </LinkArrow>
                     )}
                     {links.demo && (
-                        <FooterLink href={links.demo} target="_blank" rel="noopener noreferrer">
-                            Live Demo
-                        </FooterLink>
+                        <LinkArrow href={links.demo} target="_blank" rel="noopener noreferrer">
+                            Demo
+                        </LinkArrow>
+                    )}
+                    {links.video && (
+                        <LinkArrow href={links.video} target="_blank" rel="noopener noreferrer">
+                            Video demo
+                        </LinkArrow>
+                    )}
+                    {links.open && (
+                        <LinkArrow href={links.open} target="_blank" rel="noopener noreferrer">
+                            Try it
+                        </LinkArrow>
                     )}
                 </div>
             </div>
@@ -62,7 +73,9 @@ ProjectItem.propTypes = {
     techStack: PropTypes.arrayOf(PropTypes.string).isRequired,
     links: PropTypes.shape({
         github: PropTypes.string,
-        demo: PropTypes.string
+        demo: PropTypes.string,
+        video: PropTypes.string,
+        open: PropTypes.string,
     }).isRequired,
     image: PropTypes.string
 };
