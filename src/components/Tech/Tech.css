@@ -1,18 +1,18 @@
-.skills-container {
+.tech-container {
     display: flex;
     flex-direction: column;
     /* gap: 24px; */
     width: 100%;
 }
 
-.skills-grid {
+.tech-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(80px, 1fr)); 
     gap: 24px;
     width: 100%;
 }
 
-.skill-card {
+.tech-card {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -33,7 +33,7 @@
     justify-content: center;
 }
 
-.skill-icon {
+.tech-icon {
     width: 100%;
     height: 100%;
     object-fit: contain;
@@ -41,12 +41,12 @@
     transition: filter 0.3s ease, opacity 0.3s ease;
 }
 
-.skill-card:hover .skill-icon {
+.tech-card:hover .tech-icon {
     filter: grayscale(0%);
     opacity: 1;
 }
 
-.skill-name {
+.tech-name {
     position: absolute;
     bottom: -10px;
     opacity: 0;
@@ -57,7 +57,7 @@
 }
 
 /* Quando si va in hover sulla card, mostra il nome */
-.skill-card:hover .skill-name {
+.tech-card:hover .tech-name {
     bottom: -16px;
     opacity: 1;
     visibility: visible;

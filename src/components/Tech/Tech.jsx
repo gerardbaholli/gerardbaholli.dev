@@ -1,10 +1,10 @@
-import "./Skills.css";
+import "./Tech.css";
 import { H3, Paragraph } from "../../utils/TextStyles.jsx";
 import { Text } from "../../utils/ColorStyles.jsx";
 
-export default function Skills() {
+export default function Tech() {
 
-    const skillsData = [
+    const techData = [
         // Game Dev
         { name: "Unity", icon: "/icons/dev/unity-plain.svg" },
         { name: "Unreal Engine", icon: "/icons/dev/unrealengine-original.svg" },
@@ -44,22 +44,22 @@ export default function Skills() {
     ];
 
     return (
-        <div className="skills-container">
-            <H3 color={Text.paragraph1}>Skills</H3>
+        <div className="tech-container">
+            <H3 color={Text.paragraph1}>Tech stack</H3>
 
-            <div className="skills-grid">
-                {skillsData.map((skill, index) => (
-                    <div className="skill-card" key={index}>
+            <div className="tech-grid">
+                {techData.map((tech, index) => (
+                    <div className="tech-card" key={index}>
                         <div className="icon-wrapper">
                             <img
-                                src={skill.icon}
-                                alt={skill.name}
-                                className="skill-icon"
+                                src={tech.icon}
+                                alt={tech.name}
+                                className="tech-icon"
                             />
                         </div>
 
-                        <div className="skill-name">
-                            <Paragraph color={Text.paragraph2}>{skill.name}</Paragraph>
+                        <div className="tech-name">
+                            <Paragraph color={Text.paragraph2}>{tech.name}</Paragraph>
                         </div>
                     </div>
                 ))}
