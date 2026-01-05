@@ -1,13 +1,12 @@
 .tech-container {
     display: flex;
     flex-direction: column;
-    /* gap: 24px; */
     width: 100%;
 }
 
 .tech-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr)); 
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
     gap: 24px;
     width: 100%;
 }
@@ -53,12 +52,55 @@
     visibility: hidden;
     transition: all 0.3s ease;
     white-space: nowrap;
-    pointer-events: none; /* Evita che il testo interferisca col mouse */
+    pointer-events: none;
 }
 
-/* Quando si va in hover sulla card, mostra il nome */
 .tech-card:hover .tech-name {
     bottom: -16px;
     opacity: 1;
     visibility: visible;
+}
+
+/* Tablet */
+@media (max-width: 1280px) {
+    .tech-grid {
+        grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
+        gap: 16px;
+    }
+
+    .tech-card {
+        padding: 12px;
+        border-radius: 10px;
+    }
+
+    .icon-wrapper {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 800px) {
+    .tech-grid {
+        grid-template-columns: repeat(auto-fill, minmax(56px, 1fr));
+        gap: 12px;
+    }
+
+    .tech-card {
+        padding: 8px;
+        border-radius: 10px;
+    }
+
+    .icon-wrapper {
+        width: 32px;
+        height: 32px;
+    }
+
+    .tech-name {
+        bottom: -12px;
+    }
+
+    .tech-card:hover .tech-name {
+        bottom: -14px;
+    }
 }

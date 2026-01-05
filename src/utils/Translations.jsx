@@ -16,7 +16,7 @@ export const translations = {
         "experience_title": "Experience",
         "skills_title": "Skills",
         "projects_title": "Projects",
-        "about_title": "About me",
+        "about_title": "About",
         "about_description": "I'm a full-stack developer based in Trieste, Italy. Passionate about 3D graphics and web visualization, I mainly work with React, Three.js, and TypeScript. I love exploring new technologies and contributing to open source.",
         "curriculum_button": "Resume",
         "contact_button": "Contact me"

@@ -63,6 +63,44 @@
     "image": "/projects/gasperotti.png"
   },
   {
+    "id": "rise-of-the-boxes",
+    "title": "Rise Of The Boxes",
+    "description": {
+      "it": "Una raccolta di hook e utility personalizzate per semplificare lo sviluppo di scene 3D in React. Include controlli camera avanzati e helper per il caricamento di texture.",
+      "en": "A collection of custom hooks and utilities to simplify 3D scene development in React. Includes advanced camera controls and texture loading helpers."
+    },
+    "techStack": [
+      "Unity",
+      "C#",
+      "Git"
+    ],
+    "links": {
+      "github": "https://github.com/gerardbaholli/Rise-Of-The-Boxes",
+      "demo": null,
+      "open": null
+    },
+    "image": "/projects/rise-of-the-boxes.jpg"
+  },
+  {
+    "id": "wana",
+    "title": "Wana",
+    "description": {
+      "it": "Una raccolta di hook e utility personalizzate per semplificare lo sviluppo di scene 3D in React. Include controlli camera avanzati e helper per il caricamento di texture.",
+      "en": "A collection of custom hooks and utilities to simplify 3D scene development in React. Includes advanced camera controls and texture loading helpers."
+    },
+    "techStack": [
+      "Unity",
+      "C#",
+      "Git"
+    ],
+    "links": {
+      "github": "https://github.com/gerardbaholli/Wana",
+      "demo": null,
+      "open": null
+    },
+    "image": "/projects/wana.jpg"
+  },
+  {
     "id": "magickeywordwiki",
     "title": "Magic Keyword Wiki",
     "description": {
@@ -80,6 +118,6 @@
       "demo": null,
       "open": "https://gerardbaholli.github.io/MagicKeywordWiki/"
     },
-    "image": "/projects/astrovisio.png"
+    "image": "/projects/mtgkeywordwiki.png"
   }
 ]
