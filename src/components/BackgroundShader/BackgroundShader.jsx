@@ -1,7 +1,8 @@
-import { useEffect, useRef } from 'react';
-import * as THREE from 'three';
-import { vertexShader, fragmentShader } from '../../shaders/BayerDitheringShader.js';
-import './BackgroundShader.css';
+import "./BackgroundShader.css";
+import { useEffect, useRef } from "react";
+import * as THREE from "three";
+import { vertexShader, fragmentShader } from "../../shaders/BayerDitheringShader.js";
+import PropTypes from "prop-types";
 
 const SHAPE_MAP = {
   square: 0,
@@ -10,36 +11,36 @@ const SHAPE_MAP = {
   diamond: 3,
 };
 
-const BackgroundShader = ({ 
-  shape = 'square', 
-  pixelSize = 4, 
-  inkColor = '#ff5555', 
-  bgColor = '#001d1d' 
+const BackgroundShader = ({
+  shape = "square",
+  pixelSize = 4,
+  inkColor = "#ff5555",
+  bgColor = "#001d1d",
 }) => {
   const containerRef = useRef(null);
 
   useEffect(() => {
-    if (!containerRef.current) return;
+    const container = containerRef.current;
+    if (!container) return;
 
     // --- SETUP ---
-    const width = window.innerWidth;
-    const height = window.innerHeight;
-    
+    const width = container.clientWidth || window.innerWidth;
+    const height = container.clientHeight || window.innerHeight;
+
     const scene = new THREE.Scene();
     const camera = new THREE.OrthographicCamera(-1, 1, 1, -1, 0, 1);
-    
-    const renderer = new THREE.WebGLRenderer({ 
-      alpha: true, 
-      antialias: true 
+
+    const renderer = new THREE.WebGLRenderer({
+      alpha: true,
+      antialias: true,
     });
-    
+
     renderer.setSize(width, height);
     renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
-    
-    renderer.domElement.classList.add('shader-canvas');
-    
-    containerRef.current.innerHTML = '';
-    containerRef.current.appendChild(renderer.domElement);
+    renderer.domElement.classList.add("shader-canvas");
+
+    container.innerHTML = "";
+    container.appendChild(renderer.domElement);
 
     // --- UNIFORMS ---
     const uniforms = {
@@ -55,15 +56,16 @@ const BackgroundShader = ({
       fragmentShader,
       uniforms,
       transparent: true,
-      glslVersion: THREE.GLSL3
+      glslVersion: THREE.GLSL3,
     });
 
-    const mesh = new THREE.Mesh(new THREE.PlaneGeometry(2, 2), material);
+    const geometry = new THREE.PlaneGeometry(2, 2);
+    const mesh = new THREE.Mesh(geometry, material);
     scene.add(mesh);
 
     // --- LOOP ---
     const clock = new THREE.Clock();
-    let animationId;
+    let animationId = 0;
 
     const animate = () => {
       uniforms.uTime.value = clock.getElapsedTime();
@@ -74,30 +76,42 @@ const BackgroundShader = ({
 
     // --- RESIZE ---
     const handleResize = () => {
-      const w = window.innerWidth;
-      const h = window.innerHeight;
+      const w = container.clientWidth || window.innerWidth;
+      const h = container.clientHeight || window.innerHeight;
       renderer.setSize(w, h);
       uniforms.uResolution.value.set(w, h);
     };
-    window.addEventListener('resize', handleResize);
+
+    window.addEventListener("resize", handleResize);
 
     return () => {
       cancelAnimationFrame(animationId);
-      window.removeEventListener('resize', handleResize);
-      renderer.dispose();
+      window.removeEventListener("resize", handleResize);
+
+      scene.remove(mesh);
+
+      geometry.dispose();
       material.dispose();
-      mesh.geometry.dispose();
-      if (containerRef.current) containerRef.current.innerHTML = '';
+      renderer.dispose();
+
+      container.innerHTML = "";
     };
   }, [shape, pixelSize, inkColor]);
 
   return (
-    <div 
-      ref={containerRef} 
+    <div
+      ref={containerRef}
       className="shader-container"
       style={{ backgroundColor: bgColor }}
     />
   );
+};
+
+BackgroundShader.propTypes = {
+  shape: PropTypes.oneOf(["square", "circle", "triangle", "diamond"]),
+  pixelSize: PropTypes.number,
+  inkColor: PropTypes.string,
+  bgColor: PropTypes.string,
 };
 
 export default BackgroundShader;

@@ -2,6 +2,7 @@ import "./Header.css";
 import { H1, H2 } from "../../utils/TextStyles.jsx";
 import { Text } from "../../utils/ColorStyles.jsx";
 import { useLanguage } from "../../context/LanguageContext";
+import BackgroundShader from "../BackgroundShader/BackgroundShader.jsx";
 
 export default function Header() {
 
@@ -9,11 +10,18 @@ export default function Header() {
 
     return (
         <div className="header-container">
+            <BackgroundShader
+                shape="circle"
+                pixelSize={6}
+                inkColor="#999999"
+                bgColor="#000000"
+            />
+
             <div className="header-title">
                 <H1 color={Text.paragraph1}>Gerard Baholli</H1>
                 <H2 color={Text.paragraph2}>{t("job_title")}</H2>
             </div>
-            
+
             <div className="header-language">
                 <button
                     className={`language-button ${lang === "it" ? "active" : ""}`}

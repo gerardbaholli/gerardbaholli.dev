@@ -1,26 +1,35 @@
 .header-container {
+    position: relative;
+    overflow: hidden;
+
     display: flex;
-    align-items: flex-start; /* aligns items at the top */
+    align-items: flex-start;
     justify-content: space-between;
-    /* border: 2px solid red; */
+
     padding-bottom: 160px;
 }
 
 .header-title {
+    position: relative;
+    z-index: 1;
+
     display: flex;
-    flex-direction: column; /* stack title lines vertically */
-    gap: 4px; /* optional spacing between title lines */
+    flex-direction: column;
+    gap: 4px;
 }
 
 .header-language {
+    position: relative;
+    z-index: 1;
+
     display: flex;
-    /* border: 2px solid blue; */
 }
 
 .language-button {
     background: none;
     border: none;
     cursor: pointer;
+
     padding: 4px 8px;
     color: #ababab;
     transition: color 0.2s;
