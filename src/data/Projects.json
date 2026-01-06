@@ -24,8 +24,8 @@
     "id": "fec-viewer3d",
     "title": "FEC Digital Collection",
     "description": {
-      "it": "Una raccolta di hook e utility personalizzate per semplificare lo sviluppo di scene 3D in React. Include controlli camera avanzati e helper per il caricamento di texture.",
-      "en": "A collection of custom hooks and utilities to simplify 3D scene development in React. Includes advanced camera controls and texture loading helpers."
+      "it": "Piattaforma digitale della Fondazione Ermanno Casoli dedicata alla fruizione online delle opere realizzate nell’ambito del Premio Ermanno Casoli. Progettata come un museo virtuale accessibile da qualsiasi dispositivo e compatibile con i principali visori VR, permette di esplorare le opere in modo interattivo attraverso foto, video e contenuti audio sul processo creativo. Una selezione è fruibile anche in 3D grazie alla digitalizzazione con tecnologia Gaussian Splatting. Particolare attenzione è stata dedicata all’accessibilità, con filtri per ipovedenti e daltonici, sottotitoli attivabili, contenuti in LIS e compatibilità con tecnologie assistive.",
+      "en": "A digital platform by Fondazione Ermanno Casoli that provides online access to artworks created as part of the Premio Ermanno Casoli. Designed as a virtual museum that works on any device and supports major VR headsets, it lets users explore each work interactively through photos, videos, and audio content about the creative process. A curated selection is also available in 3D thanks to Gaussian Splatting digitization."
     },
     "techStack": [
       "React",
@@ -45,8 +45,8 @@
     "id": "gasperotti-viewer3d",
     "title": "Gasperotti Configuratore",
     "description": {
-      "it": "Una raccolta di hook e utility personalizzate per semplificare lo sviluppo di scene 3D in React. Include controlli camera avanzati e helper per il caricamento di texture.",
-      "en": "A collection of custom hooks and utilities to simplify 3D scene development in React. Includes advanced camera controls and texture loading helpers."
+      "it": "Configuratore 3D di porte pensato per supportare il processo di vendita e migliorare l’esperienza d’acquisto. Consente di personalizzare materiali e finiture della porta, sia lato interno che lato esterno, scegliere accessori da integrare e impostare il verso di apertura, con una preview interattiva durante la configurazione.",
+      "en": "A 3D door configurator designed to support the sales process and improve the customer buying experience. It lets users customize door materials and finishes for both the inside and outside, select optional accessories to add, and set the opening direction, with an interactive preview throughout the configuration."
     },
     "techStack": [
       "React",
@@ -66,8 +66,8 @@
     "id": "rise-of-the-boxes",
     "title": "Rise Of The Boxes",
     "description": {
-      "it": "Una raccolta di hook e utility personalizzate per semplificare lo sviluppo di scene 3D in React. Include controlli camera avanzati e helper per il caricamento di texture.",
-      "en": "A collection of custom hooks and utilities to simplify 3D scene development in React. Includes advanced camera controls and texture loading helpers."
+      "it": "Progetto personale in Unity ispirato a Rise of the Blobs, in cui ho ricreato le meccaniche principali di un puzzle game 3D frenetico basato su match e reazioni a catena. Il gameplay ruota attorno alla rotazione di una piattaforma cilindrica per allineare gli elementi in caduta con quelli dello stesso colore, generando combo e liberando spazio prima che la situazione diventi ingestibile. Il progetto mi ha permesso di lavorare su game feel, gestione dello spawning, logiche di matching e bilanciamento del ritmo di gioco.",
+      "en": "A Unity personal project inspired by Rise of the Blobs, where I recreated the core mechanics of a fast-paced 3D puzzle game built around matching and chain reactions. Players rotate a cylindrical platform to align falling pieces with matching colors, triggering combos and clearing space before the board gets overwhelmed. This project let me focus on game feel, spawning systems, matching logic, and pacing and balance."
     },
     "techStack": [
       "Unity",
@@ -85,8 +85,8 @@
     "id": "wana",
     "title": "Wana",
     "description": {
-      "it": "Una raccolta di hook e utility personalizzate per semplificare lo sviluppo di scene 3D in React. Include controlli camera avanzati e helper per il caricamento di texture.",
-      "en": "A collection of custom hooks and utilities to simplify 3D scene development in React. Includes advanced camera controls and texture loading helpers."
+      "it": "Digitalizzazione di Wana (罠), un gioco astratto di strategia rapido e minimale basato su posizionamento e manovre tattiche. Le regole sono essenziali: a ogni turno si muove una biglia e si vince quando si intrappola una biglia dell’avversario. Ispirato al Go, ruota attorno al concetto di iniziativa e al creare minacce che costringono l’altro a rispondere, con situazioni in cui anche una mossa apparentemente sfavorevole può trasformarsi in una trappola pianificata. Le partite durano pochi minuti, ma possono diventare più ragionate e strategiche.",
+      "en": "A digital version of Wana (罠), a quick and minimal abstract strategy game focused on positioning and tactical outmaneuvering. The rules are simple: on each turn you move one marble, and you win by trapping one of your opponent’s marbles. Inspired by Go and the idea of initiative, the game revolves around creating threats that force immediate responses, with situations where an apparently bad position can turn into a carefully prepared trap. Matches take just a few minutes, but can also be played more slowly and thoughtfully."
     },
     "techStack": [
       "Unity",
@@ -104,8 +104,8 @@
     "id": "magickeywordwiki",
     "title": "Magic Keyword Wiki",
     "description": {
-      "it": "Una raccolta di hook e utility personalizzate per semplificare lo sviluppo di scene 3D in React. Include controlli camera avanzati e helper per il caricamento di texture.",
-      "en": "A collection of custom hooks and utilities to simplify 3D scene development in React. Includes advanced camera controls and texture loading helpers."
+      "it": "Un semplice tool nato dal bisogno di cercare rapidamente il significato delle parole chiave delle carte di Magic: The Gathering. L’obiettivo è aiutare soprattutto i nuovi giocatori a comprendere il regolamento delle keyword, che in MTG funzionano come abbreviazioni di porzioni di testo di regole più lunghe.",
+      "en": "A small tool born from the need to quickly look up the meaning of Magic: The Gathering card keywords. Its goal is to help new players understand keyword rules, since MTG keywords act as shorthand for longer pieces of rules text."
     },
     "techStack": [
       "React",
