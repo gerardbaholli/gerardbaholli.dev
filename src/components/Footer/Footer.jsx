@@ -16,10 +16,10 @@ export default function Footer() {
             </div>
             
             <div className="footer-right">
-                <FooterLink href="https://github.com/gerardbaholli" target="_blank">
+                <FooterLink href="https://github.com/gerardbaholli" target="_blank" rel="noopener noreferrer">
                     GitHub
                 </FooterLink>
-                <FooterLink href="https://www.linkedin.com/in/gerardbaholli/" target="_blank">
+                <FooterLink href="https://www.linkedin.com/in/gerardbaholli/" target="_blank" rel="noopener noreferrer">
                     LinkedIn
                 </FooterLink>
                 <FooterLink onClick={() => setIsPrivacyOpen(true)}>

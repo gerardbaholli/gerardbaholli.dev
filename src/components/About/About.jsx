@@ -8,9 +8,9 @@ import aboutData from "../../data/About.json";
 export default function About() {
     const { t, lang } = useLanguage();
 
-    const cvLink = lang === 'it'
-        ? "/GerardBaholli-Curriculum-It.pdf"
-        : "/GerardBaholli-Curriculum-En.pdf";
+    // Fall back to the CV in the other language if this one is missing
+    const cvLinks = import.meta.env.CV_LINKS;
+    const cvLink = cvLinks[lang] ?? Object.values(cvLinks)[0];
 
     return (
         <div className="about-container">

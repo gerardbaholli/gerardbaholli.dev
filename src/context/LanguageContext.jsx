@@ -7,13 +7,22 @@ const LanguageContext = createContext();
 export function LanguageProvider({ children }) {
 
     const [lang, setLangState] = useState(() => {
-        const savedLang = localStorage.getItem('language');
-        return savedLang || 'en';
+        let savedLang;
+        try {
+            savedLang = localStorage.getItem('language');
+        } catch {
+            // Storage blocked (e.g. cookies disabled): use default language
+        }
+        return Object.keys(translations).includes(savedLang) ? savedLang : 'en';
     });
 
     const setLang = (newLang) => {
         setLangState(newLang);
-        localStorage.setItem('language', newLang);
+        try {
+            localStorage.setItem('language', newLang);
+        } catch {
+            // Storage blocked: preference just isn't persisted
+        }
     };
 
     const t = (key) => {
